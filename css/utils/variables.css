@@ -1,0 +1,21 @@
+body {
+  /* COLORS */
+  --white: #FFF;
+  --black: #000;
+  --blue: #0065FC;
+  --lightblue: #DEEBFF;
+  --gray: #D9D9D9;
+  --lightgray: #F2F2F2;
+
+  /* FONT WEIGHT */
+  --regular: 500;
+  --bold: 600;
+  --bolder: 700;
+
+  /* BOX SHADOW */
+  --bshadow: rgba(26, 26, 26, 0.144) 0px 5px 15px;
+
+  /* BORDER RADIUS */
+  --radiuslight: 20px;
+  --radius: 25px;
+}

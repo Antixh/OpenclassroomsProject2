@@ -1,0 +1,22 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&display=swap');
+
+
+/* Base */
+@import url(base/normalize.css);
+@import url(base/typography.css);
+
+/* Utils */
+@import url(utils/variables.css);
+
+/* Layout */
+@import url(layout/header.css);
+@import url(layout/body.css);
+@import url(layout/footer.css);
+@import url(layout/article.css);
+
+/* Components */
+@import url(components/search.css);
+@import url(components/hotels.css);
+@import url(components/hotels-fav.css);
+@import url(components/activities.css);

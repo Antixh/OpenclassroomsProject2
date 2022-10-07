@@ -1,0 +1,14 @@
+article {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/* RESPONSIVE */
+
+/* TABLET */
+@media (max-width: 992px){
+  article {
+    flex-direction: column-reverse;
+  }
+}

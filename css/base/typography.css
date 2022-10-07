@@ -1,0 +1,74 @@
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 0;
+  font-weight: var(--bolder);
+}
+
+h2 {
+  margin: 24px 0;
+  font-size: 20px;
+  font-weight: var(--bolder);
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+header a {
+  font-weight: var(--bold);
+}
+
+/* RATING MODULE */
+
+.rating i {
+  color: var(--gray);
+  font-size: 12px;
+  width: 10px;
+}
+
+.onestars i:first-child {
+  color: var(--blue);
+}
+
+.twostars i:nth-child(-n+2) {
+  color: var(--blue);
+}
+
+.threestars i:nth-child(-n+3) {
+  color: var(--blue);
+}
+
+.fourstars i:nth-child(-n+4) {
+  color: var(--blue);
+}
+
+.fivestars i:nth-child(-n+5) {
+  color: var(--blue);
+}
+
+/* RESPONSIVE */
+
+/* TABLET */
+
+@media (max-width: 992px){
+  h4 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
