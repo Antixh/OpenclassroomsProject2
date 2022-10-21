@@ -39,23 +39,7 @@ header a {
   width: 10px;
 }
 
-.onestars i:first-child {
-  color: var(--blue);
-}
-
-.twostars i:nth-child(-n+2) {
-  color: var(--blue);
-}
-
-.threestars i:nth-child(-n+3) {
-  color: var(--blue);
-}
-
-.fourstars i:nth-child(-n+4) {
-  color: var(--blue);
-}
-
-.fivestars i:nth-child(-n+5) {
+.onestars i:first-child, .twostars i:nth-child(-n+2), .threestars i:nth-child(-n+3), .fourstars i:nth-child(-n+4), .fivestars i:nth-child(-n+5){
   color: var(--blue);
 }
 
